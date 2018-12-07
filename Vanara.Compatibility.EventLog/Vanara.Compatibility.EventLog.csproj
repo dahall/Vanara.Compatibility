@@ -5,9 +5,9 @@
     <Authors>David Hall</Authors>
     <Company>GitHub Community</Company>
     <Copyright>Copyright © 2018</Copyright>
-    <PackageLicenseUrl>https://github.com/dahall/Compatibility/blob/master/license.md</PackageLicenseUrl>
-    <PackageProjectUrl>https://github.com/dahall/Compatibility</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/dahall/Compatibility</RepositoryUrl>
+    <PackageLicenseUrl>https://github.com/dahall/Vanara.Compatibility/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/dahall/Vanara.Compatibility</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/dahall/Vanara.Compatibility</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
     <PackageTags>net20 eventlog event windows compatible port</PackageTags>
     <NeutralLanguage>en-US</NeutralLanguage>
@@ -17,6 +17,9 @@
     <Description>Provides .NET 2.0 and .NET Standard 2.0 classes for the System.Diagnostics.Eventing.Reader namespace related to reading events from the Windows Event Log. These classes were introduced into the standard library in .NET 3.5.</Description>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>Vanara.snk</AssemblyOriginatorKeyFile>
+    <PackageIconUrl>https://github.com/dahall/Vanara/raw/master/docs/icons/Vanara48x48.png</PackageIconUrl>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <FileVersion>1.0.1.0</FileVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)'=='Release'">
     <DocumentationFile>bin\Release\$(TargetFramework)\Vanara.Compatibility.EventLog.xml</DocumentationFile>
