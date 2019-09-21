@@ -4,7 +4,6 @@
  * assemblies.
  * ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
-using Microsoft.Win32.SafeHandles;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Globalization;
@@ -17,6 +16,8 @@ using System.Security.Permissions;
 using System.Security.Principal;
 using System.Text;
 using System.Threading;
+
+using Microsoft.Win32.SafeHandles;
 
 namespace System.Diagnostics.Eventing.Reader
 {
@@ -3575,9 +3576,8 @@ namespace System.Diagnostics.Eventing.Reader
 				var eventMetadataEnum = NativeWrapper.EvtOpenEventMetadataEnum(Handle, 0);
 				using (eventMetadataEnum)
 				{
-					EventLogHandle handle2;
 					Label_0020:
-					handle2 = handle2 = NativeWrapper.EvtNextEventMetadata(eventMetadataEnum, 0);
+					var handle2 = NativeWrapper.EvtNextEventMetadata(eventMetadataEnum, 0);
 					if (handle2 != null)
 					{
 						using (handle2)
@@ -4923,12 +4923,8 @@ namespace System.Diagnostics.Eventing.Reader
 					{
 						case 0x3ab9:
 						case 0x3afc:
-							return list;
-
 						case 0x3ab3:
 						case 0x3ab4:
-							return list;
-
 						case 0x717:
 							return list;
 					}

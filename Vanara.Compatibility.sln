@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vanara.Compatibility.EventLog", "Vanara.Compatibility.EventLog\Vanara.Compatibility.EventLog.csproj", "{7F96C416-0B0D-44E6-AF47-FF0C1A8010E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vanara.Compatibility.EventLog", "Vanara.Compatibility.EventLog\Vanara.Compatibility.EventLog.csproj", "{7F96C416-0B0D-44E6-AF47-FF0C1A8010E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
